@@ -1,0 +1,16 @@
+<?php
+
+/**
+ * @file
+ * Provides a Javascript to make scrolling between anchors smoother
+ */
+
+/**
+ * Implements hook_init().
+ */
+function back_to_top_init() {
+	if (!path_is_admin(current_path())) {
+		drupal_add_js(drupal_get_path('module', 'back_to_top_box') .'/back_to_top_box.js');
+		drupal_add_css(drupal_get_path('module', 'back_to_top_box') .'/back_to_top_box.css');
+	}
+}
