@@ -1,0 +1,4 @@
+name = Floating back-to-top Box
+description = Provides a floating box to navigate back-to-top on certain pages
+package = Custom
+core = 7.x
