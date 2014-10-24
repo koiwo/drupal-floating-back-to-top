@@ -1,8 +1,8 @@
 (function ($) {
-  Drupal.behaviors.BackToTop = {
+  Drupal.behaviors.BackToTopBox = {
     attach: function (context, settings) {
 
-      $('.view-portfolio-page').append('<a href="#" class="back-to-top">Back to Top</a>');
+      $('#main').append('<a href="#" class="back-to-top">Back to Top</a>');
 
       var offset = 220;
       var duration = 500;
