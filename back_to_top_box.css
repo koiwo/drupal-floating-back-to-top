@@ -1,4 +1,4 @@
-/* line 5, back_to_top_box.scss */
+/* line 4, back_to_top_box.scss */
 .back-to-top {
   position: fixed;
   top: 50%;
@@ -9,6 +9,7 @@
   font-size: 12px;
   padding: 1em;
   display: none;
+  z-index: 9999;
 }
 
 /* line 17, back_to_top_box.scss */
