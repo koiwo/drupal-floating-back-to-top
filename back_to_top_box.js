@@ -2,7 +2,7 @@
   Drupal.behaviors.BackToTopBox = {
     attach: function (context, settings) {
 
-      $('#main').append('<a href="#" class="back-to-top"><img src="/sites/all/modules/custom/back_to_top_box/back_to_top_box.png" /></a>');
+      $('body').append('<a href="#" class="back-to-top"></a>');
 
       var offset = 220;
       var duration = 500;
