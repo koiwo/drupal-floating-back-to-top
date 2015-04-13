@@ -1,5 +1,4 @@
 Drupal Floating back-to-top box
-
 ===========================
 
 floating back to top anchor box
